@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- 工具 -->
+	<tool name="库:批量修改库原件名" type="库" ico="ico/1.png">
+		<!-- 外部界面 -->
+		<swf><![CDATA[swf/批量修改库原件名.swf]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/批量修改库原件名.jsfl]]></jsfl>
+	</tool>
+	<tool name="快速创建动画" type="时间轴">
+		<!-- 外部界面 -->
+		<swf><![CDATA[]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/快速创建动画.jsfl]]></jsfl>
+	</tool>
+	<tool name="快速位置取整" type="场景操作">
+		<!-- 外部界面 -->
+		<swf><![CDATA[]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/快速位置取整.jsfl]]></jsfl>
+	</tool>
+	<tool name="设置文本可做透明动画" type="场景操作">
+		<!-- 外部界面 -->
+		<swf><![CDATA[]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/设置文本可做透明动画.jsfl]]></jsfl>
+	</tool>
+	<tool name="快速查找到库中文件" type="库">
+		<!-- 外部界面 -->
+		<swf><![CDATA[]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/快速查找到库中文件.jsfl]]></jsfl>
+	</tool>
+	<tool name="批量修改图片质量" type="库">
+		<!-- 外部界面 -->
+		<swf><![CDATA[swf/批量修改图片质量.swf]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/批量修改图片质量.jsfl]]></jsfl>
+	</tool>
+	
+</data>
