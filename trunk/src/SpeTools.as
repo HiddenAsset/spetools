@@ -19,6 +19,7 @@
 			if (stage) init();
 			//MovieClip().buttonMode=true
 			else addEventListener(Event.ADDED_TO_STAGE, init);
+			
 		}
 		
 		private function init(e:Event = null):void 

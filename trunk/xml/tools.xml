@@ -37,5 +37,12 @@
 		<!-- 相关jsfl -->
 		<jsfl><![CDATA[jsfl/批量修改图片质量.jsfl]]></jsfl>
 	</tool>
+	<tool name="创建开发结构设置" type="库">
+		<!-- 外部界面 -->
+		<swf><![CDATA[]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/创建开发结构设置.jsfl]]></jsfl>
+	</tool>
+	
 	
 </data>
