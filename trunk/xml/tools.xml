@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <data>
 	<!-- 工具 -->
 	<tool name="库:批量修改库原件名" type="库" ico="ico/1.png">
@@ -6,6 +6,12 @@
 		<swf><![CDATA[swf/批量修改库原件名.swf]]></swf>
 		<!-- 相关jsfl -->
 		<jsfl><![CDATA[jsfl/批量修改库原件名.jsfl]]></jsfl>
+	</tool>
+	<tool name="处理导入的PSD文件分类型" type="库">
+		<!-- 外部界面 -->
+		<swf><![CDATA[swf/处理导入的PSD文件分类型.swf]]></swf>
+		<!-- 相关jsfl -->
+		<jsfl><![CDATA[jsfl/处理导入的PSD文件分类型.jsfl]]></jsfl>
 	</tool>
 	<tool name="快速创建动画" type="时间轴">
 		<!-- 外部界面 -->
@@ -37,11 +43,11 @@
 		<!-- 相关jsfl -->
 		<jsfl><![CDATA[jsfl/批量修改图片质量.jsfl]]></jsfl>
 	</tool>
-	<tool name="创建开发结构设置" type="库">
+	<tool name="创建开发结构设置添加src" type="库">
 		<!-- 外部界面 -->
 		<swf><![CDATA[]]></swf>
 		<!-- 相关jsfl -->
-		<jsfl><![CDATA[jsfl/创建开发结构设置.jsfl]]></jsfl>
+		<jsfl><![CDATA[jsfl/创建开发结构设置添加src.jsfl]]></jsfl>
 	</tool>
 	
 	
