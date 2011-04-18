@@ -1,0 +1,37 @@
+﻿<macromedia-extension
+    name="speTools"
+    version="1.0.0"
+    type="Flash Component" >
+    <author name="maksim email:md9yue@qq.com" />
+
+    <products>
+        <product name="Flash" version="6" primary="true" />
+    </products>
+
+    <description>
+    <![CDATA[
+	【组件介绍：快速操作工具面板】
+    ]]>
+    </description>
+
+    <ui-access>
+    <![CDATA[
+	【组件使用说明：快速操作工具面板】
+	批量重命名库中原件
+	批量修改图片质量
+	快速设置整数坐标等等操作
+    ]]>
+    </ui-access>
+
+    <files>
+        
+        <file source="SpeToolsPanel.swf" destination="$flash/WindowSWF" />
+		<file source="SpeTools.swf" destination="$flash/WindowSWF" />
+		<file source="ico" destination="$flash/WindowSWF" win-extension="fly" />
+		<file source="xml" destination="$flash/WindowSWF" win-extension="fly" />
+		<file source="swf" destination="$flash/WindowSWF" win-extension="fly" />
+		<file source="jsfl" destination="$flash/WindowSWF" win-extension="fly" />
+    </files>
+
+
+</macromedia-extension> 
