@@ -1,5 +1,5 @@
 ﻿var lib = fl.getDocumentDOM().library;
-
+init('robotLib')
 function init(value){
 	var libArr=fl.getDocumentDOM().library.getSelectedItems()
 	//fl.trace('整理:'+libArr.length)
@@ -48,7 +48,8 @@ function init(value){
 */
 function moveToFolder(item,fileurl,sequence){
 	//文件夹不存在的话
-	if(!lib.selectItem(fileurl)){
+	//fl.trace(lib.itemExists(fileurl))
+	if(!lib.itemExists(fileurl)){
 		//fl.trace('文件夹不存在 创建一个')
 		lib.newFolder(fileurl)
 	}
@@ -57,13 +58,18 @@ function moveToFolder(item,fileurl,sequence){
 	var fileNum=libArr.length
 	//fl.trace(String(fileNum*0.00001).slice(2,7))
 	//fileNum=String(fileNum*0.00001).slice(2,7)
+	/*
 	if(fileNum<10)fileNum='00000'+fileNum
 	else if(fileNum<100)fileNum='0000'+fileNum
 	else if(fileNum<1000)fileNum='000'+fileNum
 	else if(fileNum<10000)fileNum='00'+fileNum
 	else if(fileNum<100000)fileNum='0'+fileNum
 	else fileNum=''+fileNum
-	lib.selectItem(item.name);
-	lib.moveToFolder(fileurl)
+	*/
+	//fl.trace(lib.itemExists(fileurl+'/'+sequence+fileNum))
+	while(lib.itemExists(fileurl+'/'+sequence+fileNum)){
+		fileNum++
+	}
 	item.name=sequence+fileNum
+	lib.moveToFolder(fileurl,item.name,false)
 }
